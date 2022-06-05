@@ -2,7 +2,6 @@
     margin: 0 48px 0px;
     padding-bottom: 92px;
     max-width: 100%;
-    min-height: 57.812vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,5 +16,11 @@
 @media screen and (max-width: 768px) {
     .cover {
         padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cover {
+        padding-bottom: 64px;
     }
 }
